@@ -1,0 +1,123 @@
+.footer_lower{
+   padding-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+
+}
+.footer_lower_div{
+  height: 200px;
+  width: 280px;
+  padding-top: 40px;
+}
+
+.lower_stroke{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 95px;
+  height: 4px;
+}
+.lower_stroke1{
+  background: #1F1A17 0% 0% no-repeat padding-box;
+}
+.lower_stroke3{
+background: #DA8A44 0% 0% no-repeat padding-box;
+
+}
+
+.lower_stroke2{
+background: #DA251D 0% 0% no-repeat padding-box;
+}
+.footer_lower_div1 h2, .footer_lower_div2 h2, .footer_lower_div3 h2{
+  text-align: left;
+  font: normal normal bold 22px/30px Inter;
+  letter-spacing: 0px;
+}
+.footer_lower_div1 h2{
+  color: #1F1A17;
+  text-transform: uppercase;
+}
+.footer_lower_div2 h2{
+  color: #DA251D;
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+.footer_lower_div3 h2{
+  color: #DA8A44;
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+
+
+.footer_lower_div h1{
+  text-align: left;
+font: normal normal 800 25px/30px Inter;
+letter-spacing: 0px;
+color: #1F1A17;
+text-transform: uppercase;
+margin: unset;
+}
+
+.footer_lower_div p {
+  text-align: left;
+  font: normal normal normal 22px/30px Inter;
+  letter-spacing: 0px;
+  color: #1F1A17;
+  margin: unset;
+}
+
+@media (min-width: 1025px) and (max-width: 1400px){
+.footer_lower{
+  grid-template-columns: repeat(1,1fr);
+
+}
+.footer_lower_div{
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  margin: auto;
+}
+.footer_lower_div h1, .footer_lower_div p, .footer_lower_div1 h2, .footer_lower_div2 h2, .footer_lower_div3 h2{
+  text-align: center;
+  margin:auto;
+}
+
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px){
+  .footer_lower{
+    grid-template-columns: repeat(1,1fr);
+  
+  }
+  .footer_lower_div{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    margin: auto;
+  }
+}
+
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .footer_lower{
+    grid-template-columns: repeat(1,1fr);
+  
+  }
+  .footer_lower_div{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    margin: auto;
+  }
+
+}
+
+
+@media (max-width: 480px) {
+  .footer_lower{
+    grid-template-columns: repeat(1,1fr);
+  
+  }
+  .footer_lower_div{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    margin: auto;
+  }
+}

@@ -1,0 +1,17 @@
+.o_nas p{
+  text-align: left;
+font: normal normal normal 18px/25px Inter;
+letter-spacing: 0px;
+color: #1F1A17;
+
+}
+
+.o_nas{
+  display: flex;
+  flex-direction: column;
+}
+
+.o_nas_div{
+  display: flex;
+  flex-direction: row;
+}

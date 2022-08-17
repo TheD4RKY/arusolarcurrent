@@ -1,0 +1,58 @@
+.download_{
+  display: flex;
+  flex-direction: column;
+
+}
+
+.download_url{
+  flex-direction: row;
+  display: flex;
+
+}
+
+.download_url h1{
+  text-align: left;
+font: normal normal 500 18px/21px Inter;
+letter-spacing: 0px;
+color: #DA251D;
+  
+}
+
+.download_url h2{
+  text-align: left;
+font: normal normal bold 18px/21px Inter;
+letter-spacing: 0px;
+color: #DA251D;
+  
+}
+
+.download_grid_col{
+  display: grid;
+  grid-template-columns: 1fr 1fr
+}
+
+
+.download_grid_col div{
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  align-items: center;
+  justify-content: start;
+}
+
+.download_grid_col h3 {
+text-align: left;
+font: normal normal bold 18px/29px Inter;
+letter-spacing: 0px;
+color: #1F1A17;
+opacity: 1;
+}
+
+.download_grid_col p{
+text-align: left;
+text-decoration: underline;
+font: normal normal bold 16px/29px Inter;
+letter-spacing: 0px;
+color: #DA251D;
+padding-left: 2rem;
+}

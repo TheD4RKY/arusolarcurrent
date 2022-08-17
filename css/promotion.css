@@ -1,0 +1,105 @@
+.promotion_{
+  display: flex;
+  flex-direction: row;
+  padding-top: 5rem;
+  max-height: 687px;
+  max-width: 1597px;
+}
+
+.promotion_div{
+
+}
+
+.promotion_div--lower{
+  background-color: #EBEBEB;
+  min-height: 422px;
+  width: 673px;
+}
+
+.promotion_div--upper h1{
+  text-align: left;
+font: normal normal 800 60px/72px Inter;
+letter-spacing: 0px;
+color: #DA251D;
+text-transform: uppercase;
+}
+
+.promotion_div--upper h3{
+  text-align: left;
+font: normal normal medium 33px/40px Inter;
+letter-spacing: 0px;
+color: #1F1A17;
+}
+.promotion_div--upper-div{
+  padding-left: 4rem;
+    
+}
+
+.promotion_div--lower h1{
+text-align: left;
+font: normal normal 800 30px/36px Inter;
+letter-spacing: 0px;
+color: #1F1A17;
+opacity: 1;
+}
+.promotion_div--lower h2{
+text-align: left;
+font: normal normal bold 22px/26px Inter;
+letter-spacing: 0px;
+color: #1F1A17;
+}
+.promotion_div--lower h3{
+text-align: right;
+font: normal normal normal 25px/30px Inter;
+letter-spacing: 0px;
+color: #1F1A17;
+opacity: 1;
+text-transform: uppercase;
+}
+.promotion_div--lower p{
+text-align: left;
+font: normal normal medium 22px/26px Inter;
+letter-spacing: 0px;
+color: #1F1A17;
+}
+.promotion_div--lower-div{
+  padding-left: 4rem;
+    padding-top: 3rem;
+}
+.promotion_div--lower-line{
+  width: 117px;
+height: 2px;
+background: #DA251D 0% 0% no-repeat padding-box;
+}
+
+
+
+@media (max-width: 1000px){
+
+.promotion_{
+height: auto;
+max-height: none;
+flex-direction: column;
+}
+
+.promotion_div{
+  margin-inline: auto;
+  width: 100%;
+}
+
+.promotion_ img{
+  position: absolute;
+  z-index: -1;
+  filter: blur(1px);
+  filter: brightness(50%);
+  object-fit: cover;
+  width: 100%;
+}
+.promotion_div--upper h3{
+  color: white;
+}
+
+.promotion_div--lower {
+  width: 100%;
+}
+}

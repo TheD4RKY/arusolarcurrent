@@ -1,0 +1,13 @@
+.main_background{
+  height: 724px;
+  width: 100%;
+   position: absolute;
+  z-index: -1;
+}
+.main_background img{
+  width: 100%;
+  height: inherit;
+  object-fit: cover;
+   position: absolute;
+  z-index: -1;
+}

@@ -1,0 +1,62 @@
+.dalsi_section{
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+  display: flex;
+  flex-direction: row;
+}
+
+.dalsi_section h1{
+
+  text-align: left;
+font: normal normal 800 45px/50px Inter;
+letter-spacing: 0px;
+color: #DA251D;
+}
+
+.dalsi_section p{
+  text-align: left;
+font: normal normal normal 18px/25px Inter;
+letter-spacing: 0px;
+color: #1F1A17;
+}
+
+.dalsi_section_img{
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+  display: flex;
+  flex-direction: row;
+}
+
+.dalsi_section_img div{
+  width: 50%;
+    
+}
+
+.dalsi_section_img div img{
+  width: 98%;
+    margin-left: 0;
+    margin-right: auto;
+}
+
+@media (max-width:1000px) {
+  .dalsi_section{
+  flex-direction: column;
+}
+
+.dalsi_section div{
+  margin-inline: auto;
+  
+}
+.dalsi_section h1, .dalsi_section h2, .dalsi_section h3{
+  text-align: center;
+}
+  .dalsi_section_img{
+  
+  flex-direction: column;
+}
+
+.dalsi_section_img div{
+  margin-inline: auto;
+  
+}
+}
